@@ -16,13 +16,6 @@
     font-family: "fontPatri";
     src: url(../font/PatrickHand-Regular.ttf);
 }
-
-/* .playerGame{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 .speech-bubble {
 	position: relative;
 	background: #45D994;

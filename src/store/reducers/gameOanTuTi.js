@@ -8,7 +8,7 @@ let initialState = {
         { ma: 'bua', hinhAnh: './img/image-oan-tu-ti/bua.png', datCuoc: false },
         { ma: 'bao', hinhAnh: './img/image-oan-tu-ti/bao.png', datCuoc: false },
     ],
-    resultGame: "You win!",
+    resultGame: "Welcome to my game!!!",
     numOfWins: 0,
     numOfPlays: 0,
     computer: { ma: 'bua', hinhAnh: './img/image-oan-tu-ti/bua.png' },
