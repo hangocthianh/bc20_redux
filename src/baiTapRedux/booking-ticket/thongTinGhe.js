@@ -2,17 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import {actHuyGhe} from '../../store/actions/veXemPhim'
 class ThongTinGhe extends Component {
-    // renderDanhSachGheDangDat=()=>{
-    //     this.props.danhSachGheDangDat.map((gheDangDat,index)=>{
-    //         return(
-    //             <tr key={index}>
-    //                 <td>{gheDangDat.soGhe}</td>
-    //                 <td>{gheDangDat.gia}</td>
-    //                 <td></td>
-    //             </tr>
-    //         )
-    //     })
-    // }
     render() {
         return (
             <div className="text-light">
