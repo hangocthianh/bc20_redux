@@ -1,0 +1,67 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+@font-face {
+    font-family: 'Pony';
+    src: url(./font/Pony.ttf);
+}
+
+#BaiTapBauCua{
+    font-family: 'Pony';
+    background-color: #f2cc8f;
+    min-height: 1000px;
+}
+.diemCuoc, .btnXoc{
+    font-family: 'Pony';
+    font-size: 28px;
+}
+.danhSachXucXac{
+    width: 320px;
+    height: 320px;
+}
+.imgXucXac{
+  width: 100%;
+}
+
+
+.scene {
+  perspective: 500px;
+  
+}
+
+.cube {
+  position: relative;
+  transform-style:preserve-3d;
+  transition: transform infinite;
+  transform: rotateX(-5deg) rotateY(15deg); ;
+}
+
+
+.cube__face {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 2px solid brown;
+}
+
+.front  { 
+  transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(40px);
+ }
+.right  { 
+  transform: rotateY( 90deg) rotateX(0deg) rotateZ(0deg)  translateZ(40px);
+ }
+.back   { 
+  transform: rotateY(180deg) rotateX(0deg) rotateZ(0deg)  translateZ(40px);
+ }
+.left   { 
+  transform: rotateY(-90deg) rotateX(0deg) rotateZ(0deg) translateZ(40px);
+ }
+.top    { 
+  transform: rotateX( 90deg) rotateY(0deg) rotateZ(0deg)  translateZ(40px);
+ }
+.bottom { 
+  transform: rotateX(-90deg) rotateY(0deg) rotate(0deg)  translateZ(40px);
+ }
+
+label { margin-right: 10px; }
